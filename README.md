@@ -17,8 +17,9 @@ Descripción:
 
 
 - **Mis Prácticas**
-	- ![Toma de requerimientos](https://github.com/vikecp/Launchx_Frontend/blob/main/1_Semana/1.-Requerimientos.pdf)
-    - ![Crea tu buyer persona](https://github.com/vikecp/Launchx_Frontend/blob/main/1_Semana/Persona_buyer.pdf)
-	- ![Publico objetivo](https://github.com/vikecp/Launchx_Frontend/blob/main/1_Semana/Publico_objetivo.pdf)
-	- ![Crea tu primer Wireframe UX](https://github.com/vikecp/Launchx_Frontend/blob/main/1_Semana/Abogabot_wireframe.pdf)
-	- ![UI con Figma](https://www.figma.com/proto/Oak23mtY4cIYnhMB6KCduy/Practica_wireframe_abogabot?node-id=2%3A2&starting-point-node-id=2%3A2&show-proto-sidebar=1&scaling=scale-down)
+	- [Toma de requerimientos](https://github.com/vikecp/Launchx_Frontend/blob/main/1_Semana/1.-Requerimientos.pdf)
+    - [Crea tu buyer persona](https://github.com/vikecp/Launchx_Frontend/blob/main/1_Semana/Persona_buyer.pdf)
+	- [Publico objetivo](https://github.com/vikecp/Launchx_Frontend/blob/main/1_Semana/Publico_objetivo.pdf)
+	- [Crea tu primer Wireframe UX](https://github.com/vikecp/Launchx_Frontend/blob/main/1_Semana/Abogabot_wireframe.pdf)
+	- [UI con Figma](https://www.figma.com/proto/Oak23mtY4cIYnhMB6KCduy/Practica_wireframe_abogabot?node-id=2%3A2&starting-point-node-id=2%3A2&show-proto-sidebar=1&scaling=scale-down)
+
