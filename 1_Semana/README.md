@@ -26,7 +26,7 @@ Descripción:
 ## Diseño Con Figma
 - Imagenes del UI de Figma
 	- [Crear Cuenta](./figma/Wireframe_figma/CrearCuenta.pdf)
-	- [Crear Demanda](./figma/Wireframe_figma/)
+	- [Crear Demanda](./figma/Wireframe_figma/CrearDemanda.pdf)
 	- [login](./figma/Wireframe_figma/login_screen.pdf)
 	- [Inicio](./figma/Wireframe_figma/inicio.pdf)
 	
