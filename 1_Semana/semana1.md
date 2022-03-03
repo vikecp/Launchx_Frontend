@@ -1,3 +1,5 @@
+# Prácticas de la Semana 1
+
 ### **Caso: Abogabot**
 Descripción: 
 - Es un despacho de abogados que quiere automatizar las demandas de sus clientes, esto lo harán a traves de una página web llenando un formulario.
@@ -11,10 +13,10 @@ Descripción:
 - La preferncia de colores del cliente es azul marino y blanco, pero acepta propuestas.
 
 
-- [Req] (./1.-Requerimientos.pdf)
 
+## Mis Prácticas Resueltas
 - **Mis Prácticas**
-	- [Toma de requerimientos](https://github.com/vikecp/Launchx_Frontend/blob/main/1_Semana/1.-Requerimientos.pdf)
+	- [Toma de requerimientos](1_Semana\1.-Requerimientos.pdf)
     - [Crea tu buyer persona](https://github.com/vikecp/Launchx_Frontend/blob/main/1_Semana/Persona_buyer.pdf)
 	- [Publico objetivo](https://github.com/vikecp/Launchx_Frontend/blob/main/1_Semana/Publico_objetivo.pdf)
 	- [Crea tu primer Wireframe UX](https://github.com/vikecp/Launchx_Frontend/blob/main/1_Semana/Abogabot_wireframe.pdf)
