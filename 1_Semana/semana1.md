@@ -11,7 +11,7 @@ Descripción:
 - La preferncia de colores del cliente es azul marino y blanco, pero acepta propuestas.
 
 
-- [Req] (./1.Requerimientos.pdf)
+- [Req] (./1.-Requerimientos.pdf)
 
 - **Mis Prácticas**
 	- [Toma de requerimientos](https://github.com/vikecp/Launchx_Frontend/blob/main/1_Semana/1.-Requerimientos.pdf)
