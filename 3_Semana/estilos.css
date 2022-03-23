@@ -1,0 +1,89 @@
+
+
+
+/*BARRA MENU*/
+.navigation {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    list-style: none;
+    margin: 0; 
+  }
+  
+  .navigation a {
+    text-decoration: none;
+    display: block;
+    color: gray;
+    font-family: 'Fredoka One';
+    font-weight: lighter;
+    padding: 15px 30px 15px 30px;
+    border-radius: 5px;
+    margin: 6px;
+  }
+  
+  .navigation a:hover {
+    background: #0bcdf0;
+  }
+
+  .barra{
+    float: left;
+    padding: 10px 40px 10px 200px ;
+  
+}
+.boton {
+  border-radius: 5px;
+  background-color: #0f0caa;
+  display: inline-block;
+  text-decoration: none;
+  transition: background-color .3s ease-in-out;
+  color: white !important;
+}
+.navigation .boton {
+  padding: 15px 40px 15px 40px;
+}
+  
+/*Responsiva barra*/
+  @media all and (max-width: 800px) {
+    .navigation {
+      justify-content: space-around;
+    }
+  }
+  
+  @media all and (max-width: 600px) {
+    .navigation {
+      flex-flow: column wrap;
+      padding: 0;
+    }
+    .navigation a { 
+        text-align: center; 
+        padding: 10px;
+        border-top: 1px solid rgba(255, 255, 255,0.3); 
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1); 
+      }
+      .navigation li:last-of-type a {
+        border-bottom: none;
+      }
+  }
+
+
+/*TITULO ALADO DE NAVbar*/
+.titulo{
+  float: left;
+  padding: 8px 30px 8px 80px;
+}
+.title{
+  align-items: center;
+  text-align:justify;
+  font-size:23px;
+  color:#331cb3;
+  font-family: 'Fredoka One';
+  font-weight: lighter;
+}
+
+/*SECTION*/
+
+
+.info h1, p {
+  position: relative;
+  padding: 15px 40px 15px 40px;
+}
