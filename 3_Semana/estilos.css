@@ -195,7 +195,7 @@ img .doc{
   height: 20px;
 }
 
-/**Barra  Submit*/
+/**Barra  Submit ultima*/
 .datos{
   width: 70%;
   height: 120px;
@@ -260,4 +260,76 @@ img .doc{
 }
 .btn2 a:hover {
   background: #0bcdf0;
+}
+
+/*MARCAS DE VACUNAS*/
+.marcas {
+  list-style: none;
+  padding: 80px 10px 15px 80px;
+  display: flex;
+  justify-content: space-evenly;
+  flex: 1;
+}
+.marcas li {
+  align-items: center;
+  font-family: 'Fredoka One';
+  color: #131096bd;
+  
+}
+.marcas li img {
+  width: 200px;
+  height: 80px;
+  opacity: 0.4;
+}
+
+
+/*parte 2 d ela pag*/
+.intro{
+  padding: 80px 10px 15px 80px;
+}
+.intro h1{
+  width:50%; 
+  align-items: center;
+  font-family: 'Fredoka One';
+  color: #0e0d68bd;
+  font-size: 40px;
+  font-weight: lighter;
+}
+.intro p{
+  padding: 20px 10px 50px 0px;
+  width:40%; 
+  font-family: 'Fredoka One';
+  color: #4745aabd;
+  font-size: 15px;
+  font-weight: lighter;
+  text-align: justify;
+}
+
+.reason img{
+}
+.reason{
+  padding: 0px 10px 15px 0px;
+  display: flex;
+  justify-content: space-evenly;
+  flex: 1;
+  list-style: none;
+}
+.reason li{
+  align-items: center;
+  font-family: 'Fredoka One';
+  color: #4745aabd;
+  font-size: 13px;
+  font-weight: lighter;
+  text-align: justify;
+}
+.reason li p{
+  text-decoration: none;
+  margin: 10px;
+  align-items: center;
+  font-family: 'Fredoka One';
+  color: #13118abd;
+}
+.reason li img{
+  width: 40px;
+  height: 40px;
 }
