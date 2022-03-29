@@ -105,6 +105,7 @@ body{
 .seccion {
   margin-top: 2rem;
   margin-bottom: 2rem;
+  position: relative;
   
 }
 
@@ -142,3 +143,121 @@ img .doc{
   
 }
 
+/*iconos*/
+.iconos-caracteristicas {
+  list-style: none;
+  padding: 0px 10px 15px 80px;
+  display: flex;
+  justify-content: space-evenly;
+  flex: 1;
+  max-width: 500px;
+}
+.iconos-caracteristicas li {
+  /* flex: 1; */
+  display: flex;
+  align-items: center;
+  font-family: 'Fredoka One';
+  color: #131096bd;
+  
+}
+.iconos-caracteristicas li img {
+  width: 20px;
+  height: 20px;
+}
+
+
+.barra-schedule{
+  padding: 50px 250px 15px 0px;
+}
+.schedule{
+  list-style: none;
+  padding: 0px 40px 15px 55px;
+  display: flex;
+  justify-content: space-evenly;
+  flex: 1;
+  max-width: 500px;
+}
+.schedule li{
+  display: flex;
+  align-items: center;
+  font-family: 'Fredoka One';
+  color: #13118abd;
+}
+.schedule li a{
+  text-decoration: none;
+  margin: 10px;
+  align-items: center;
+  font-family: 'Fredoka One';
+  color: #13118abd;
+}
+.schedule li img{
+  width: 20px;
+  height: 20px;
+}
+
+/**Barra  Submit*/
+.datos{
+  width: 70%;
+  height: 120px;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  flex: 1;
+  padding: 5px 20px 5px 40px;
+  margin: 20px;
+}
+
+.datos li img{
+  text-align: center;
+  width: 20px;
+  height: 20px;
+  align-items: center;
+  margin: 1px;
+}
+.datos li span{
+  text-align: center;
+  margin: 5px;
+}
+.datos li p{
+  text-align: left;
+  width: 150px;
+}
+.barra-submit{
+  width: 70%;
+  height: 130px;
+  position: absolute;
+  top: 750px;
+  left: 110px;
+  background-color: #f1fbfd;
+  border: #e6edee;
+  border-radius: 10px;
+}
+.barra-submit .datos li{
+  justify-content: space-evenly;
+  font-family: 'Fredoka One';
+  color: #13118abd;
+  margin-left: 10px;
+ 
+  width: 200px;
+  height: 100px;
+}
+
+
+.boton2 {
+  border-radius: 5px;
+  background-color: #0f0caa; display: inline-block;
+  text-decoration: none;
+  transition: background-color .3s ease-in-out;
+  color: white !important;
+  padding: 20px 40px 20px 40px;
+  font-family: 'Fredoka One';
+  font-weight: lighter;
+ 
+}
+.btn2 a{
+  align-items: center;
+  margin-left: 10px;
+}
+.btn2 a:hover {
+  background: #0bcdf0;
+}
