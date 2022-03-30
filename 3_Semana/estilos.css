@@ -300,19 +300,21 @@ img .doc{
   width:40%; 
   font-family: 'Fredoka One';
   color: #4745aabd;
-  font-size: 15px;
+  font-size: 20px;
   font-weight: lighter;
   text-align: justify;
 }
 
-.reason img{
-}
 .reason{
-  padding: 0px 10px 15px 0px;
+  padding: 0px 10px 120px 0px;
   display: flex;
   justify-content: space-evenly;
   flex: 1;
   list-style: none;
+  width: 90%;
+}
+.reason li p{
+  font-size: 15px;
 }
 .reason li{
   align-items: center;
@@ -320,16 +322,90 @@ img .doc{
   color: #4745aabd;
   font-size: 13px;
   font-weight: lighter;
-  text-align: justify;
+  background-color: rgb(255, 255, 255);
+  margin: 10px;
+  padding: 20px 40px 0px 40px;
+  box-shadow: 3px 3px 4px rgb(138, 135, 135);
 }
 .reason li p{
   text-decoration: none;
-  margin: 10px;
-  align-items: center;
+  margin: 0;
   font-family: 'Fredoka One';
   color: #13118abd;
+  width: 100%;
+  margin-top: 20px;
 }
 .reason li img{
   width: 40px;
   height: 40px;
+}     
+
+/*PARTE TRES*/
+
+.imagen2{
+  width:50%; height:700px;
+  float:left; 
+  display:inline;
+  background-color: #5250da; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.imagen2 img{
+  width: 1000px;
+  align-content: center;
+  height: 700px;
+}
+/*Contenedor Texto*/
+.text2{
+  width:50%; height:700px;
+  float:left; 
+  display:inline;
+  justify-content: center;
+  
+}
+
+.text2 h2{
+  font-size: 40px;
+  font-family: 'Fredoka One';
+  color: #0e0d68bd;
+  font-weight: lighter;
+  padding: 0px 40px 0px 80px;
+}
+.text2 p{
+  padding: 0px 40px 0px 80px;
+  width:80%; 
+  font-family: 'Fredoka One';
+  color: #6665b8bd;
+  font-size: 20px;
+  font-weight: lighter;
+  text-align: justify;
+}
+
+/*PARTE DE DETALLES*/
+
+details {
+  font-family: 'Fredoka One';
+  width: 620px;
+}
+
+details > summary {
+  padding: 2px 6px;
+  width: 15em;
+  background-color: #ddd;
+  border: none;
+  box-shadow: 3px 3px 4px black;
+  cursor: pointer;
+}
+
+details > p {
+  border-radius: 0 0 10px 10px;
+  background-color: #ddd;
+  padding: 2px 6px;
+  margin: 0;
+  box-shadow: 3px 3px 4px black;
+}
+
+details[open] > summary {
+  background-color: #ccf;
 }
