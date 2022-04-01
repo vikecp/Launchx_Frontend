@@ -29,19 +29,21 @@ body{
     color: gray;
     font-family: 'Fredoka One';
     font-weight: lighter;
-    padding: 15px 30px 15px 30px;
+    padding: 15px 20px 15px 20px;
     border-radius: 5px;
-    margin: 6px;
+    margin: 8px;
   }
-  
-  .navigation a:hover {
-    background: #0bcdf0;
+  .head li:hover{
+    background:#0f0caa !important;
+    color: white;
   }
-
-  .barra{
+  .barra .navigation a:hover {
+    background:#0f0caa;
+    color: white;
+  }
+.barra{
     float: left;
-    padding: 10px 40px 10px 200px ;
-  
+    padding: 10px 0px 10px 400px;
 }
 .boton {
   border-radius: 5px;
@@ -51,7 +53,9 @@ body{
   transition: background-color .3s ease-in-out;
   color: white !important;
 }
-.navigation .boton {
+.navigation .boton:hover {
+  background: #0f0caa;
+  color: white;
   padding: 15px 40px 15px 40px;
 }
   
@@ -81,13 +85,14 @@ body{
 
 /*TITULO ALADO DE NAVbar*/
 .titulo{
+  margin-left: 20px;
   float: left;
-  padding: 8px 30px 8px 80px;
+  padding: 8px 30px 8px 30px;
 }
 .title{
   align-items: center;
   text-align:justify;
-  font-size:23px;
+  font-size:25px;
   color:#331cb3;
   font-family: 'Fredoka One';
   font-weight: lighter;
@@ -451,4 +456,172 @@ details[open] summary::before {
       -webkit-transform: rotate(180deg);
       transform: rotate(180deg);
   }
+}
+
+/*penultima parte*/
+
+.imagen3{
+  width:50%; height:700px;
+  float:left; 
+  display:inline;
+  background-color: #5250da; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 0px 0px 0px;
+  margin-top: 200px;
+  margin-bottom: 150px;
+}
+.imagen3 img{
+  width: 1000px;
+  align-content: center;
+  height: 700px;
+  margin-bottom: 0;
+}
+.text3{
+  width:50%; height:700px;
+  float:left; 
+  display:inline;
+  margin-top: 200px;
+  margin-bottom: 150px;
+}
+.text3 h2{
+  font-size: 40px;
+  font-family: 'Fredoka One';
+  color: #0e0d68bd;
+  font-weight: lighter;
+  padding: 0px 40px 0px 80px;
+}
+.text3 p{
+  padding: 10px 40px 40px 80px;
+  width:80%; 
+  font-family: 'Fredoka One';
+  color: #6665b8bd;
+  font-size: 20px;
+  font-weight: lighter;
+  text-align: justify;
+}
+.contenedor-contactos{
+  width: 100%;
+  position:relative;
+}
+.contactos{
+  height: auto;
+  list-style: none;
+  position: relative;
+}
+.contactos li {
+  border-radius: 15px;
+  padding: 10px;
+  margin: 15px;
+  background-color: #f4ecf7;
+  width: 40%;
+  text-align: center;
+  display:inline-block;
+}
+/** 2(0) + 1 **/
+.contactos  h2{
+}
+
+.contactos li img{
+  transition: border-color .3s ease-in-out;
+  width: 20px;
+  height: 20px;
+}
+.contactos li img:hover {
+  border: 1px solid rgba(128, 1, 195, 1);
+}
+.contactos li p {
+  font-size: 15px;
+  font-weight: bold;
+  margin: 10px 0 0 0;
+}
+.contactos li h2{
+  display: inline-block;
+  font-size: 20px;
+  font-family: 'Fredoka One';
+  color: #0e0d68bd;
+  font-weight: lighter;
+  padding: 0;
+  margin: 10px 0 0 0;
+}
+
+.botonn {
+  text-align: center;
+  background-color: #ccc3f7;
+  padding: 20px 40px 20px 40px;
+  margin-top: 10px;
+  display: inline-block;
+  text-decoration: none;
+  font-family: 'Fredoka One';
+  color: #0f0cbebd;
+  font-weight: lighter;
+  transition: background-color .3s ease-in-out;
+  border-radius: 10px;
+}
+.botonn:hover {
+  background-color: #0c0cd3;
+  color: white;
+}
+
+/*footer*/
+.site-footer{
+  width:100%; height:350px;
+  padding-bottom: 20px;
+  float:left; 
+  display:inline;
+  justify-content: center;
+  background-color: #f4ecf7;
+}
+.foot li .ab{
+  color: #331cb3;
+  font-size: 25px;
+  font-weight: 400;
+  font-family: 'Fredoka One';
+  text-align: center;
+}
+
+.titlefoo{
+  align-items: center;
+  text-align:justify;
+  font-size:25px;
+  color:#331cb3;
+  font-family: 'Fredoka One';
+  font-weight: lighter;
+}
+
+.foot li{
+  list-style: none;
+  text-align: left;
+}
+.footf li{
+  list-style: none;
+  margin-right: 150px;
+}
+.site-footer p {
+  color: #3628b4;
+  font-size: 4rem;
+  font-weight: 400;
+  font-family: 'Fredoka One';
+  text-align: center;
+}
+.site-footer p span {
+  font-weight: 700;
+}
+
+
+.barraf{
+  float: left;
+  padding: 10px 0px 0px 20px ;
+
+}
+.final{
+  width: 150px;
+  color: #7770b3;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: 'Fredoka One';
+  text-align:left;
+  text-align: left;
+
 }
